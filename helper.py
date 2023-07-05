@@ -29,3 +29,4 @@ class CustomSession(Session):
             return response
 
 
+base_url = CustomSession('https://reqres.in')
